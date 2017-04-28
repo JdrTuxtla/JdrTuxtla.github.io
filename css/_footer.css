@@ -1,0 +1,86 @@
+#footer{
+	background: #333;
+	color: #fff;
+	width: 100% !important;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#footer .logo{
+	width: 20%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+#footer .logo h3:hover{
+	color: yellow;
+	cursor: pointer;
+}
+#footer .nav{
+	width: 50%;
+	text-align: center;
+}
+#footer .nav ul{
+	list-style: none;
+}
+#footer .nav ul li{
+	display: inline-block;
+	text-align: left;
+	margin-top: 15px;
+}
+#footer .nav ul li a{
+	padding: 10px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+#footer .nav ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+#footer .social{
+	width: 30%;
+	text-align: center;
+}
+.face{
+	-webkit-transition: .2 all;
+	-o-transition: .2 all;
+	transition: .2 all;
+}
+.face:hover{
+	padding: 1px;
+	box-shadow: 3px 3px 3px #000;
+}
+.ins{
+	-webkit-transition: .2 all;
+	-o-transition: .2 all;
+	transition: .2 all;
+}
+.ins:hover{
+	padding: 1px;
+	box-shadow: 3px 3px 3px #000;
+}
+.you{
+	-webkit-transition: .2 all;
+	-o-transition: .2 all;
+	transition: .2 all;
+}
+.you:hover{
+	padding: 1px;
+	box-shadow: 3px 3px 3px #000;
+}
+@media (max-width: 800px){
+	#footer{
+		flex-direction: column;
+		width: 100%;
+	}
+	#footer .logo{
+		width: 100%;
+	}
+	#footer .nav{
+		width: 100%;
+	}
+	#footer .social{
+		width: 100%;
+	}
+}

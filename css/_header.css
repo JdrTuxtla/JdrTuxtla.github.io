@@ -1,0 +1,47 @@
+header{
+	margin-bottom: 50px;
+}
+nav .container{
+	width: 100%;
+	max-width: 70%;
+	margin: auto;
+}
+.navbar{
+	width: 100%;
+	background: rgba(0,0,0,0.9) !important;
+	border:0 !important;
+	margin-bottom: 10px;
+	opacity: 0.9;
+	border-radius: 0 !important;
+}
+.navbar li a, .navbar .navbar-brand{
+	color: #fff !important;
+	transition: .5s all;
+}
+.navbar li a:hover{
+	color: yellow !important;
+}
+.navbar-default .navbar-toggle{
+	border-color: transparent !important;
+}
+.navbar-nav .dropdown a{
+	color: #fff;
+}
+.dropdown-menu li a{
+	color: #000 !important;
+}
+.dropdown a{
+	color: red !important  ;
+}
+.dropdown-menu li a:hover{
+	background: #333 !important;
+	color: yellow !important;
+}
+.navbar-default .navbar-nav > .open > a {
+	background: #333 !important; 
+}
+.nav-2{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
